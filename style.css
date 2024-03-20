@@ -40,6 +40,13 @@
     height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .slide__img {
+        width: 100%; /* Устанавливаем ширину изображений на телефонах */
+        height: 670px; /* Устанавливаем высоту изображений на телефонах */
+    }
+}
+
 @keyframes fade {
     from { opacity: .4; }
     to { opacity: 1; }
